@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 2.8.4 (Jython 2.5.3 on java1.7.0_60)" generated="20140724 14:32:14.843">
+<suite source="D:\DATA\git\robot-standalone-kit\tests\scripts" id="s1" name="Scripts">
+<suite source="D:\DATA\git\robot-standalone-kit\tests\scripts\samples" id="s1-s1" name="Samples">
+<suite source="D:\DATA\git\robot-standalone-kit\tests\scripts\samples\sample-suite.robot" id="s1-s1-s1" name="Sample-Suite">
+<test id="s1-s1-s1-t1" name="My Sample Test">
+<kw type="kw" name="${year} = BuiltIn.Get Time">
+<doc>Returns the given time in the requested format.</doc>
+<arguments>
+<arg>return year</arg>
+</arguments>
+<msg timestamp="20140724 14:32:15.031" level="INFO">${year} = 2014</msg>
+<status status="PASS" endtime="20140724 14:32:15.031" starttime="20140724 14:32:15.031"></status>
+</kw>
+<kw type="kw" name="BuiltIn.Should Start With">
+<doc>Fails if the string `str1` does not start with the string `str2`.</doc>
+<arguments>
+<arg>${year}</arg>
+<arg>20</arg>
+</arguments>
+<status status="PASS" endtime="20140724 14:32:15.031" starttime="20140724 14:32:15.031"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20140724 14:32:15.031" starttime="20140724 14:32:15.031"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20140724 14:32:15.031" starttime="20140724 14:32:15.015"></status>
+</suite>
+<suite source="D:\DATA\git\robot-standalone-kit\tests\scripts\samples\sample-web-test.robot" id="s1-s1-s2" name="Sample-Web-Test">
+<test id="s1-s1-s2-t1" name="Web Test">
+<kw type="kw" name="Selenium2Library.Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;</doc>
+<arguments>
+<arg>http://intranet.michelin.com</arg>
+</arguments>
+<msg timestamp="20140724 14:32:17.328" level="INFO">browserName: firefox</msg>
+<msg timestamp="20140724 14:32:17.328" level="INFO">Opening browser 'firefox' to base url 'http://intranet.michelin.com'</msg>
+<status status="PASS" endtime="20140724 14:32:24.234" starttime="20140724 14:32:17.328"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Page Should Contain">
+<doc>Verify the current page contains &lt;b&gt;text&lt;/b&gt;.&lt;br&gt;</doc>
+<arguments>
+<arg>Michelin</arg>
+</arguments>
+<msg timestamp="20140724 14:32:27.031" level="INFO">Page Should Contain: Michelin =&gt; OK</msg>
+<status status="PASS" endtime="20140724 14:32:27.031" starttime="20140724 14:32:24.234"></status>
+</kw>
+<kw type="kw" name="Selenium2Library.Close All Browsers">
+<doc>Closes all open browser instances and resets the browser cache.&lt;br&gt;</doc>
+<arguments>
+</arguments>
+<status status="PASS" endtime="20140724 14:32:27.296" starttime="20140724 14:32:27.031"></status>
+</kw>
+<doc></doc>
+<tags>
+</tags>
+<status status="PASS" critical="yes" endtime="20140724 14:32:27.296" starttime="20140724 14:32:17.328"></status>
+</test>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20140724 14:32:27.296" starttime="20140724 14:32:15.046"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20140724 14:32:27.312" starttime="20140724 14:32:15.000"></status>
+</suite>
+<doc></doc>
+<metadata>
+</metadata>
+<status status="PASS" endtime="20140724 14:32:27.312" starttime="20140724 14:32:14.843"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0">Critical Tests</stat>
+<stat pass="2" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" id="s1" fail="0" name="Scripts">Scripts</stat>
+<stat pass="2" id="s1-s1" fail="0" name="Samples">Scripts.Samples</stat>
+<stat pass="1" id="s1-s1-s1" fail="0" name="Sample-Suite">Scripts.Samples.Sample-Suite</stat>
+<stat pass="1" id="s1-s1-s2" fail="0" name="Sample-Web-Test">Scripts.Samples.Sample-Web-Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
