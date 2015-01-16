@@ -4,5 +4,5 @@
 
 *** Test Cases ***
 My Sample Test
-    ${year}=    Get Time    return year
+    ${year}=    Get Time    year
     Should Start With    ${year}    20
