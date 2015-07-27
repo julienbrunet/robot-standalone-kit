@@ -11,17 +11,26 @@ set RBF_MAIN_CLASS=org.robotframework.RobotFramework
 set RBF_CORE_DIR=./robotframework-core
 set RBF_LIB_DIR=%RBF_CORE_DIR%/libs
 set PYTHON_LIB_DIR=%RBF_LIB_DIR%/python
+set STANDALONE_BROWSER_DIR=%RBF_CORE_DIR%/standalone-browsers
 
 set TESTS_DIR=./tests/scripts
 set OUTPUT_DIR=./reports
 
+@REM ----------------------------------------------------------------------------
 @REM Web Drivers settings
+@REM ----------------------------------------------------------------------------
 
 set IE_WEBDRIVER_PATH=%RBF_CORE_DIR%/web-drivers/ie-64
 set IE_WEBDRIVER=%IE_WEBDRIVER_PATH%/IEDriverServer.exe
 
 set CHROME_WEBDRIVER_PATH=%RBF_CORE_DIR%/web-drivers/chrome
 set CHROME_WEBDRIVER=%CHROME_WEBDRIVER_PATH%/chromedriver.exe
+
+@REM ----------------------------------------------------------------------------
+@REM Standalone Browsers settings
+@REM ----------------------------------------------------------------------------
+set PHANTOMJS_BINARY=%STANDALONE_BROWSER_DIR%/phantomjs\phantomjs-2.0.0-windows/phantomjs.exe
+
 
 
 cls
@@ -51,5 +60,5 @@ echo.
 echo                    LAUNCHING ROBOTFRAMEWORK TEST SCRIPTS...
 echo.
 
-java -Xmx512M -Dwebdriver.ie.driver="%IE_WEBDRIVER%" -Dwebdriver.chrome.driver="%CHROME_WEBDRIVER%" -cp %RBF_CLASSPATH% %RBF_MAIN_CLASS% -K off -W 79 --pythonpath %PYTHON_LIB_DIR% --outputdir %OUTPUT_DIR% %TESTS_DIR%
+java -Xmx512M -Dwebdriver.ie.driver="%IE_WEBDRIVER%" -Dwebdriver.chrome.driver="%CHROME_WEBDRIVER%" -Dphantomjs.binary.path="%PHANTOMJS_BINARY%" -cp %RBF_CLASSPATH% %RBF_MAIN_CLASS% -K off -W 79 --pythonpath %PYTHON_LIB_DIR% --outputdir %OUTPUT_DIR% %TESTS_DIR%
 pause
