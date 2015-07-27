@@ -5,7 +5,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta content="Robot Framework 2.8.4 (Jython 2.5.3 on java1.7.0_60)" name="Generator">
+<meta content="Robot Framework 2.8.7 (Jython 2.5.3 on java1.8.0_45)" name="Generator">
 <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAJEBoACtnfgA5cYYAERsiAEx2lAAbKkQAcazBACZCVwAcM1cAK0ucAAMDBQAnQncASG+FABkoVQAyWmgA6f8SgvH/Ij99+GLyIinyJfn/Yi//KSLzUy9iZogpIld3/4JVVTkid7vyUjNVNVJEAGOZ6Z7pXwAABpmZkRiLAAAGiJZpmGAAAEEt3SXdxAAATC7o/u3EAAC8MRZpjasAAAY1VVVTYAAABKqqqqpAAAAADKqq4AAAAAAAv4sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMADAADgAwAA4AcAAOAHAADgBwAAwAcAAOAHAADgDwAA8A8AAPg/AAD+fwAA">
 <style media="all" type="text/css">
 /* Generic and misc styles */
@@ -496,6 +496,12 @@ a:link, a:visited {
 }
 .doc pre {
     font-size: 1.1em;
+    letter-spacing: 0.05em;
+    background: #F4F4FF;
+}
+.doc code {
+    padding: 0 0.2em;
+    letter-spacing: 0.05em;
     background: #F4F4FF;
 }
 .doc li {
@@ -923,7 +929,7 @@ window.util = function () {
     }
     function Matcher(pattern) {
         pattern = regexpEscape(normalize(pattern));
-        var rePattern = '^' + pattern.replace(/\\\?/g, ".").replace(/\\\*/g, ".*") + '$';
+        var rePattern = '^' + pattern.replace(/\\\?/g, '.').replace(/\\\*/g, '[\\s\\S]*') + '$';
         var regexp = new RegExp(rePattern);
         function matches(string) {
             return regexp.test(normalize(string));
@@ -1049,6 +1055,7 @@ window.util = function () {
         escape: escape,
         unescape: unescape,
         normalize: normalize,
+        regexpEscape: regexpEscape,
         Matcher: Matcher,
         formatParentName: formatParentName,
         timeFromDate: timeFromDate,
@@ -1516,25 +1523,25 @@ storage = function () {
 window.output = {};
 </script>
 <script type="text/javascript">
-window.output["suite"] = [1,2,3,0,[],[1,0,12469],[[4,5,6,0,[],[1,157,12312],[[7,8,9,0,[],[1,172,16],[],[[10,0,1,0,[],[1,188,0],[]]],[],[1,1,1,1]],[11,12,13,0,[],[1,203,12250],[],[[14,0,1,0,[],[1,2485,9968],[]]],[],[1,1,1,1]]],[],[],[2,2,2,2]]],[],[],[2,2,2,2]];
+window.output["suite"] = [1,2,3,0,[],[1,0,13646],[[4,5,6,0,[],[1,370,40],[],[[7,0,1,0,[],[1,390,10],[]]],[],[1,1,1,1]],[8,9,10,0,[],[1,410,13216],[[11,12,13,0,[],[1,430,8226],[],[[14,0,1,0,[],[1,2360,6286],[]]],[],[1,1,1,1]],[15,16,17,0,[],[1,8676,4930],[],[[14,0,1,0,[],[1,8736,4860],[]]],[],[1,1,1,1]]],[],[],[2,2,2,2]]],[],[],[3,3,3,3]];
 </script>
 <script type="text/javascript">
 window.output["strings"] = [];
 </script>
 <script type="text/javascript">
-window.output["strings"] = window.output["strings"].concat(["*","*Scripts","*D:\\DATA\\git\\robot-standalone-kit\\tests\\scripts","*../tests/scripts","*Samples","*D:\\DATA\\git\\robot-standalone-kit\\tests\\scripts\\samples","*../tests/scripts/samples","*Sample-Suite","*D:\\DATA\\git\\robot-standalone-kit\\tests\\scripts\\samples\\sample-suite.robot","*../tests/scripts/samples/sample-suite.robot","*My Sample Test","*Sample-Web-Test","*D:\\DATA\\git\\robot-standalone-kit\\tests\\scripts\\samples\\sample-web-test.robot","*../tests/scripts/samples/sample-web-test.robot","*Web Test"]);
+window.output["strings"] = window.output["strings"].concat(["*","*Scripts","*C:\\Users\\brunetj\\repositories\\git\\robot-standalone-kit\\tests\\scripts","*../tests/scripts","*myFirstTest","*C:\\Users\\brunetj\\repositories\\git\\robot-standalone-kit\\tests\\scripts\\myFirstTest.robot","*../tests/scripts/myFirstTest.robot","*My First Test","*Web-Gui","*C:\\Users\\brunetj\\repositories\\git\\robot-standalone-kit\\tests\\scripts\\web-gui","*../tests/scripts/web-gui","*Chrome-Test","*C:\\Users\\brunetj\\repositories\\git\\robot-standalone-kit\\tests\\scripts\\web-gui\\chrome-test.robot","*../tests/scripts/web-gui/chrome-test.robot","*Web Test","*Ie-Test","*C:\\Users\\brunetj\\repositories\\git\\robot-standalone-kit\\tests\\scripts\\web-gui\\ie-test.robot","*../tests/scripts/web-gui/ie-test.robot"]);
 </script>
 <script type="text/javascript">
-window.output["generatedMillis"] = 12157;
+window.output["generatedTimestamp"] = "20150727 17:51:16 GMT +02:00";
 </script>
 <script type="text/javascript">
-window.output["baseMillis"] = 1406205134843;
+window.output["generatedMillis"] = 12975;
 </script>
 <script type="text/javascript">
-window.output["generatedTimestamp"] = "20140724 14:32:27 GMT +02:00";
+window.output["baseMillis"] = 1438012263025;
 </script>
 <script type="text/javascript">
-window.output["stats"] = [[{"elapsed":"00:00:10","fail":0,"label":"Critical Tests","pass":2},{"elapsed":"00:00:10","fail":0,"label":"All Tests","pass":2}],[],[{"elapsed":"00:00:12","fail":0,"id":"s1","label":"Scripts","name":"Scripts","pass":2},{"elapsed":"00:00:12","fail":0,"id":"s1-s1","label":"Scripts.Samples","name":"Samples","pass":2},{"elapsed":"00:00:00","fail":0,"id":"s1-s1-s1","label":"Scripts.Samples.Sample-Suite","name":"Sample-Suite","pass":1},{"elapsed":"00:00:12","fail":0,"id":"s1-s1-s2","label":"Scripts.Samples.Sample-Web-Test","name":"Sample-Web-Test","pass":1}]];
+window.output["stats"] = [[{"elapsed":"00:00:11","fail":0,"label":"Critical Tests","pass":3},{"elapsed":"00:00:11","fail":0,"label":"All Tests","pass":3}],[],[{"elapsed":"00:00:14","fail":0,"id":"s1","label":"Scripts","name":"Scripts","pass":3},{"elapsed":"00:00:00","fail":0,"id":"s1-s1","label":"Scripts.myFirstTest","name":"myFirstTest","pass":1},{"elapsed":"00:00:13","fail":0,"id":"s1-s2","label":"Scripts.Web-Gui","name":"Web-Gui","pass":2},{"elapsed":"00:00:08","fail":0,"id":"s1-s2-s1","label":"Scripts.Web-Gui.Chrome-Test","name":"Chrome-Test","pass":1},{"elapsed":"00:00:05","fail":0,"id":"s1-s2-s2","label":"Scripts.Web-Gui.Ie-Test","name":"Ie-Test","pass":1}]];
 </script>
 <script type="text/javascript">
 window.settings = {"background":{"fail":"#FF3333","nonCriticalFail":"#99FF66","pass":"#99FF66"},"logURL":"log.html","title":""};
@@ -1622,9 +1629,12 @@ function addCustomSortersForDetails() {
 }
 
 function showDetailsByHash() {
-    if (window.location.hash == window.prevLocationHash)
+    // Cannot use window.location.hash because Firefox incorrectly decodes it:
+    // http://stackoverflow.com/questions/1703552/encoding-of-window-location-hash
+    var hash = window.location.href.split('#').slice(1).join('#');
+    if (!hash || hash == window.prevLocationHash)
         return;
-    var parts = window.location.hash.substring(1).split('?');
+    var parts = hash.split('?');
     var name = parts.shift();
     var query = parts.join('?');
     if (name == 'search') {
@@ -1784,8 +1794,7 @@ function searchTests(suitePattern, testPattern, includePattern, excludePattern) 
 function scrollToSelector(base, query) {
     $('#test-details-container').css('min-height', $(window).height());
     var anchor = query ? base + '?' + encodeURIComponent(query) : base;
-    window.prevLocationHash = '#' + anchor;
-    window.location.hash = anchor;
+    window.location.hash = window.prevLocationHash = anchor;
 }
 
 function renderSelector(args, template, stats) {
@@ -1966,7 +1975,7 @@ function hideHiddenDetailsColumns(elem) {
 
 <script type="text/x-jquery-tmpl" id="tagStatisticsRowTemplate">
   <tr onclick="tagDetailSelected('${label}')" class="row-${$item.index}">
-    <td class="stats-col-name" title="${doc}">
+    <td class="stats-col-name" title="{{html doc}}">
       <div class="stat-name">
         <a href="#tags?${label}">{{html label}}</a>
         {{if info}}(${info}){{/if}}
@@ -1984,7 +1993,7 @@ function hideHiddenDetailsColumns(elem) {
 
 <script type="text/x-jquery-tmpl" id="suiteStatisticsRowTemplate">
   <tr onclick="suiteDetailSelected('${id}')" class="row-${$item.index}">
-    <td class="stats-col-name" title="${label}">
+    <td class="stats-col-name" title="{{html label}}">
       <div class="stat-name">
         <a href="#suites?${id}"><span class="parent-name">{{html formatParentName}}</span>{{html name}}</a>
       </div>
@@ -2172,7 +2181,7 @@ function hideHiddenDetailsColumns(elem) {
               precedence, from highest to lowest, is <em>AND</em>, <em>OR</em>,
               <em>NOT</em>. See <em>Simple patterns</em> and
               <em>Tag patterns</em> sections in
-              <a href="https://code.google.com/p/robotframework/wiki/UserGuide">Robot
+              <a href="http://robotframework.org/robotframework/#user-guide">Robot
               Framework User Guide</a> version 2.8.4 or newer for more details.
             </p>
             <table class="search-help-examples">
@@ -2282,7 +2291,7 @@ function hideHiddenDetailsColumns(elem) {
   <tr>
     <th>Log File:</th>
     <td><a href="${$item.logURL}#${id}"
-           title="${fullName}">${$item.logURL}#${id}</a></td>
+           title="{{html fullName}}">${$item.logURL}#${id}</a></td>
   </tr>
   {{/if}}
 </script>
@@ -2328,12 +2337,12 @@ function hideHiddenDetailsColumns(elem) {
 
 <script type="text/x-jquery-tmpl" id="testDetailsTableRowTemplate">
   {{if $item.logURL}}
-  <tr onclick="location = '${$item.logURL}#${id}'" title="${fullName}">
+  <tr onclick="location = '${$item.logURL}#${id}'" title="{{html fullName}}">
     <td class="details-col-name">
       <div><a href="${$item.logURL}#${id}"><span class="parent-name">{{html formatParentName}}</span>{{html name}}</a></div>
     </td>
   {{else}}
-  <tr title="${fullName}">
+  <tr title="{{html fullName}}">
     <td class="details-col-name">
       <div><span class="parent-name">{{html formatParentName}}</span>{{html name}}</div>
     </td>
