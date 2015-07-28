@@ -19,7 +19,6 @@ set OUTPUT_DIR=./reports
 @REM ----------------------------------------------------------------------------
 @REM Web Drivers settings
 @REM ----------------------------------------------------------------------------
-
 set IE_WEBDRIVER_PATH=%RBF_CORE_DIR%/web-drivers/ie-64
 set IE_WEBDRIVER=%IE_WEBDRIVER_PATH%/IEDriverServer.exe
 
@@ -29,9 +28,8 @@ set CHROME_WEBDRIVER=%CHROME_WEBDRIVER_PATH%/chromedriver.exe
 @REM ----------------------------------------------------------------------------
 @REM Standalone Browsers settings
 @REM ----------------------------------------------------------------------------
-set PHANTOMJS_BINARY=%STANDALONE_BROWSER_DIR%/phantomjs\phantomjs-2.0.0-windows/phantomjs.exe
-
-
+set PHANTOMJS_BINARY=%STANDALONE_BROWSER_DIR%/phantomjs/phantomjs-2.0.0-windows/phantomjs.exe
+set FIREFOX_BINARY=%STANDALONE_BROWSER_DIR%/firefox/9.0/FirefoxPortable.exe
 
 cls
 echo ===============================================================================
@@ -60,5 +58,5 @@ echo.
 echo                    LAUNCHING ROBOTFRAMEWORK TEST SCRIPTS...
 echo.
 
-java -Xmx512M -Dwebdriver.ie.driver="%IE_WEBDRIVER%" -Dwebdriver.chrome.driver="%CHROME_WEBDRIVER%" -Dphantomjs.binary.path="%PHANTOMJS_BINARY%" -cp %RBF_CLASSPATH% %RBF_MAIN_CLASS% -K off -W 79 --pythonpath %PYTHON_LIB_DIR% --outputdir %OUTPUT_DIR% %TESTS_DIR%
+java -Xmx512M -Dwebdriver.firefox.bin="%FIREFOX_BINARY%" -Dwebdriver.ie.driver="%IE_WEBDRIVER%" -Dwebdriver.chrome.driver="%CHROME_WEBDRIVER%" -Dphantomjs.binary.path="%PHANTOMJS_BINARY%" -cp %RBF_CLASSPATH% %RBF_MAIN_CLASS% -K off -W 79 --pythonpath %PYTHON_LIB_DIR% --outputdir %OUTPUT_DIR% %TESTS_DIR%
 pause
