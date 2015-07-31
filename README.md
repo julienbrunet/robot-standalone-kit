@@ -1,4 +1,10 @@
-robot-standalone-kit
-====================
+RobotFramework Standalone development kit for windows
+=====================================================
 
-RobotFramework Standalone Development Kit
+This package contains all binaries and launchers to run RobotFramework tests under windows with no software installation needed.
+
+Prerequisites
+==============
+* Java 1.6
+
+
