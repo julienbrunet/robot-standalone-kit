@@ -36,6 +36,7 @@ Internet Explorer Browser Check
 *** Keywords ***
 Test Selenium On Google
     Maximize Browser Window
+    Sleep    5 seconds
     Page Should Contain    Google
     Input Text    //input[@title='Rechercher']    robotframework
     Wait Until Page Contains    robotframework.org    timeout=10 seconds
