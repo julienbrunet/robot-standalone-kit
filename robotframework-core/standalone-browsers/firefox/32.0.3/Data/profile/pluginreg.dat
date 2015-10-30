@@ -5,74 +5,12 @@ Version|0.17|$
 Arch|x86-msvc|$
 
 [PLUGINS]
-NPSWF32_18_0_0_160.dll|$
-C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_18_0_0_160.dll|$
-18.0.0.160|$
-1437394045938|0|0|0|$
-Shockwave Flash 18.0 r0|$
-Shockwave Flash|$
-2
-0|application/x-shockwave-flash|Adobe Flash movie|swf|$
-1|application/futuresplash|FutureSplash movie|spl|$
-nppdf32.dll|$
-C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
-11.0.11.18|$
-1430503842000|0|0|0|$
-Adobe PDF Plug-In For Firefox and Netscape 11.0.11|$
-Adobe Acrobat|$
-7
-0|application/pdf|Acrobat Portable Document Format|pdf|$
-1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
-2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
-3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
-4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
-5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
-6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
-nppdf32.dll|$
-C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
-11.0.11.18|$
-1430503842000|0|0|0|$
-Adobe PDF Plug-In For Firefox and Netscape 11.0.11|$
-Adobe Acrobat|$
-7
-0|application/pdf|Acrobat Portable Document Format|pdf|$
-1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
-2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
-3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
-4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
-5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
-6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
-npctrl.dll|$
-c:\Program Files (x86)\Microsoft Silverlight\5.1.40416.0\npctrl.dll|$
-5.1.40416.0|$
-1429132690000|0|0|0|$
-5.1.40416.0|$
-Silverlight Plug-In|$
-2
-0|application/x-silverlight|npctrl|scr|$
-1|application/x-silverlight-2|||$
-npANWSHARE25.dll|$
-C:\Program Files (x86)\Anywhere Conference\Anywhere Appshare\npANWSHARE25.dll|$
-7.1.0.0|$
-1427383204000|0|0|0|$
-Application Sharing Plugin for Anywhere Conference|$
-Anywhere Appshare|$
-1
-0|application/com-anywhereconference-appshare-win|Application Sharing Plugin for Anywhere Conference|snp|$
-npatgpc.dll|$
-C:\Users\FP13389\AppData\Roaming\Mozilla\plugins\npatgpc.dll|$
-29.1.2014.921|$
-1424091599412|0|0|0|$
-ActiveTouch General Plugin Container Version 105|$
-ActiveTouch General Plugin Container|$
-1
-0|application/x-atgpc-plugin|General Plugin Container File|gpc|$
 npjp2.dll|$
 C:\Program Files (x86)\Java\jre7\bin\plugin2\npjp2.dll|$
-10.45.2.18|$
-1406272635179|0|0|0|$
-Next Generation Java Plug-in 10.45.2 for Mozilla browsers|$
-Java(TM) Platform SE 7 U45|$
+10.76.2.13|$
+1441886108025|0|0|0|$
+Next Generation Java Plug-in 10.76.2 for Mozilla browsers|$
+Java(TM) Platform SE 7 U76|$
 38
 0|application/x-java-applet|Java Applet||$
 1|application/x-java-bean|JavaBeans||$
@@ -107,27 +45,89 @@ Java(TM) Platform SE 7 U45|$
 30|application/x-java-bean;version=1.6|||$
 31|application/x-java-applet;version=1.7|||$
 32|application/x-java-bean;version=1.7|||$
-33|application/x-java-applet;jpi-version=1.7.0_45|||$
-34|application/x-java-bean;jpi-version=1.7.0_45|||$
+33|application/x-java-applet;jpi-version=1.7.0_76|||$
+34|application/x-java-bean;jpi-version=1.7.0_76|||$
 35|application/x-java-vm-npruntime|||$
-36|application/x-java-applet;deploy=10.45.2|||$
-37|application/x-java-applet;javafx=2.2.45|||$
+36|application/x-java-applet;deploy=10.76.2|||$
+37|application/x-java-applet;javafx=2.2.76|||$
 npdeployJava1.dll|$
 C:\Program Files (x86)\Java\jre7\bin\dtplugin\npdeployJava1.dll|$
-10.45.2.18|$
-1406272631959|0|0|0|$
+10.76.2.13|$
+1441886107805|0|0|0|$
 NPRuntime Script Plug-in Library for Java(TM) Deploy|$
-Java Deployment Toolkit 7.0.450.18|$
+Java Deployment Toolkit 7.0.760.13|$
 1
 0|application/java-deployment-toolkit|||$
+NPSWF32_18_0_0_232.dll|$
+C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_18_0_0_232.dll|$
+18.0.0.232|$
+1441885925377|0|0|0|$
+Shockwave Flash 18.0 r0|$
+Shockwave Flash|$
+2
+0|application/x-shockwave-flash|Adobe Flash movie|swf|$
+1|application/futuresplash|FutureSplash movie|spl|$
+npctrl.dll|$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.40728.0\npctrl.dll|$
+5.1.40728.0|$
+1438040874000|0|0|0|$
+5.1.40728.0|$
+Silverlight Plug-In|$
+2
+0|application/x-silverlight|npctrl|scr|$
+1|application/x-silverlight-2|||$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
+11.0.11.18|$
+1430503842000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.11|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
+11.0.11.18|$
+1430503842000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.11|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
 np32dsw.dll|$
 C:\Windows\SysWOW64\Adobe\Director\np32dsw.dll|$
-12.0.7.148|$
-1386246748000|0|0|0|$
-Adobe Shockwave for Director Netscape plug-in, version 12.0.7.148|$
+12.1.8.158|$
+1429295126000|0|0|0|$
+Adobe Shockwave for Director Netscape plug-in, version 12.1.8.158|$
 Shockwave for Director|$
 1
 0|application/x-director|Shockwave Movie|dir,dxr,dcr|$
+npANWSHARE25.dll|$
+C:\Program Files (x86)\Anywhere Conference\Anywhere Appshare\npANWSHARE25.dll|$
+7.1.0.0|$
+1427383204000|0|0|0|$
+Application Sharing Plugin for Anywhere Conference|$
+Anywhere Appshare|$
+1
+0|application/com-anywhereconference-appshare-win|Application Sharing Plugin for Anywhere Conference|snp|$
+npatgpc.dll|$
+C:\Users\FP13389\AppData\Roaming\Mozilla\plugins\npatgpc.dll|$
+29.1.2014.921|$
+1424091599412|0|0|0|$
+ActiveTouch General Plugin Container Version 105|$
+ActiveTouch General Plugin Container|$
+1
+0|application/x-atgpc-plugin|General Plugin Container File|gpc|$
 npnv3dvstreaming.dll|$
 C:\Program Files (x86)\NVIDIA Corporation\3D Vision\npnv3dvstreaming.dll|$
 7.17.12.9680|$
@@ -164,5 +164,5 @@ Microsoft Office 2010|$
 0|application/x-msoffice14|14.0.4730.1010|*|$
 
 [INVALID]
-c:\Program Files (x86)\Microsoft Silverlight\5.1.40416.0\npctrlui.dll|$
-1429132690000|$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.40728.0\npctrlui.dll|$
+1438040874000|$
