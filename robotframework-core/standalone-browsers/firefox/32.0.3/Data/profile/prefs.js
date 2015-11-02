@@ -9,7 +9,7 @@
  */
 
 user_pref("app.update.auto", false);
-user_pref("app.update.backgroundErrors", 3);
+user_pref("app.update.backgroundErrors", 5);
 user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 0);
 user_pref("browser.cache.disk.capacity", 0);
 user_pref("browser.cache.disk.smart_size.enabled", false);
@@ -26,8 +26,8 @@ user_pref("browser.preferences.advanced.selectedTabIndex", 2);
 user_pref("browser.rights.3.shown", true);
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20140923175406");
 user_pref("browser.shell.checkDefaultBrowser", false);
-user_pref("browser.slowStartup.averageTime", 3509);
-user_pref("browser.slowStartup.samples", 3);
+user_pref("browser.slowStartup.averageTime", 0);
+user_pref("browser.slowStartup.samples", 0);
 user_pref("browser.startup.homepage_override.buildID", "20140923175406");
 user_pref("browser.startup.homepage_override.mstone", "32.0.3");
 user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"new-window-button\",\"privatebrowsing-button\",\"save-page-button\",\"print-button\",\"history-panelmenu\",\"fullscreen-button\",\"find-button\",\"preferences-button\",\"add-ons-button\",\"developer-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"search-container\",\"webrtc-status-button\",\"bookmarks-menu-button\",\"downloads-button\",\"home-button\",\"social-share-button\",\"firebug-badged-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\",\"addon-bar\"],\"newElementCount\":0}");
@@ -36,16 +36,18 @@ user_pref("browser.uitour.whitelist.add.340", "");
 user_pref("datareporting.healthreport.nextDataSubmissionTime", "1438160795738");
 user_pref("datareporting.healthreport.service.firstRun", true);
 user_pref("datareporting.policy.firstRunTime", "1438074395737");
-user_pref("datareporting.sessions.current.activeTicks", 7);
+user_pref("datareporting.sessions.current.activeTicks", 6);
 user_pref("datareporting.sessions.current.clean", true);
-user_pref("datareporting.sessions.current.firstPaint", 3371);
-user_pref("datareporting.sessions.current.main", 138);
-user_pref("datareporting.sessions.current.sessionRestored", 3689);
-user_pref("datareporting.sessions.current.startTime", "1446453641911");
-user_pref("datareporting.sessions.current.totalTime", 33);
-user_pref("datareporting.sessions.currentIndex", 2);
+user_pref("datareporting.sessions.current.firstPaint", 3079);
+user_pref("datareporting.sessions.current.main", 165);
+user_pref("datareporting.sessions.current.sessionRestored", 4661);
+user_pref("datareporting.sessions.current.startTime", "1446456510667");
+user_pref("datareporting.sessions.current.totalTime", 47);
+user_pref("datareporting.sessions.currentIndex", 4);
 user_pref("datareporting.sessions.previous.0", "{\"s\":1438074394718,\"a\":16,\"t\":82,\"c\":true,\"m\":442,\"fp\":3212,\"sr\":3563}");
 user_pref("datareporting.sessions.previous.1", "{\"s\":1446453606173,\"a\":7,\"t\":34,\"c\":true,\"m\":163,\"fp\":3409,\"sr\":3707}");
+user_pref("datareporting.sessions.previous.2", "{\"s\":1446453641911,\"a\":7,\"t\":33,\"c\":true,\"m\":138,\"fp\":3371,\"sr\":3689}");
+user_pref("datareporting.sessions.previous.3", "{\"s\":1446456474761,\"a\":4,\"t\":18,\"c\":true,\"m\":163,\"fp\":2710,\"sr\":4320}");
 user_pref("extensions.blocklist.pingCountVersion", 0);
 user_pref("extensions.bootstrappedAddons", "{\"firebug@software.joehewitt.com\":{\"version\":\"2.0.13\",\"type\":\"extension\",\"descriptor\":\"C:\\\\Users\\\\brunetj\\\\repositories\\\\git\\\\robot-standalone-kit\\\\robotframework-core\\\\standalone-browsers\\\\firefox\\\\32.0.3\\\\Data\\\\profile\\\\extensions\\\\firebug@software.joehewitt.com.xpi\"}}");
 user_pref("extensions.databaseSchema", 16);
@@ -66,7 +68,16 @@ user_pref("pdfjs.previousHandler.alwaysAskBeforeHandling", true);
 user_pref("pdfjs.previousHandler.preferredAction", 4);
 user_pref("places.history.expiration.transient_current_max_pages", 104858);
 user_pref("plugin.disable_full_page_plugin_for_types", "application/pdf");
+user_pref("plugin.importedState", true);
 user_pref("privacy.sanitize.migrateFx3Prefs", true);
 user_pref("signon.importedFromSqlite", true);
-user_pref("toolkit.startup.last_success", 1446453642);
+user_pref("toolkit.startup.last_success", 1446456510);
 user_pref("toolkit.telemetry.previousBuildID", "20140923175406");
+
+user_pref("browser.shell.checkDefaultBrowser", false);
+
+user_pref("browser.shell.checkDefaultBrowser", false);
+
+user_pref("browser.shell.checkDefaultBrowser", false);
+
+user_pref("browser.shell.checkDefaultBrowser", false);

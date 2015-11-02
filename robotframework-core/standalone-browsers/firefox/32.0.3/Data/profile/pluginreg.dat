@@ -5,12 +5,49 @@ Version|0.17|$
 Arch|x86-msvc|$
 
 [PLUGINS]
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
+11.0.13.17|$
+1443309562000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.13|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+nppdf32.dll|$
+C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
+11.0.13.17|$
+1443309560000|0|0|0|$
+Adobe PDF Plug-In For Firefox and Netscape 11.0.13|$
+Adobe Acrobat|$
+7
+0|application/pdf|Acrobat Portable Document Format|pdf|$
+1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
+2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
+3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
+4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
+5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
+6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
+npGoogleUpdate3.dll|$
+C:\Program Files (x86)\Google\Update\1.3.28.15\npGoogleUpdate3.dll|$
+1.3.28.15|$
+1442992086299|0|0|0|$
+Google Update|$
+Google Update|$
+2
+0|application/x-vnd.google.update3webcontrol.3|||$
+1|application/x-vnd.google.oneclickctrl.9|||$
 npjp2.dll|$
-C:\Program Files (x86)\Java\jre7\bin\plugin2\npjp2.dll|$
-10.76.2.13|$
-1441886108025|0|0|0|$
-Next Generation Java Plug-in 10.76.2 for Mozilla browsers|$
-Java(TM) Platform SE 7 U76|$
+C:\Program Files (x86)\Java\jre1.8.0_45\bin\plugin2\npjp2.dll|$
+11.45.2.14|$
+1429684291194|0|0|0|$
+Next Generation Java Plug-in 11.45.2 for Mozilla browsers|$
+Java(TM) Platform SE 8 U45|$
 38
 0|application/x-java-applet|Java Applet||$
 1|application/x-java-bean|JavaBeans||$
@@ -45,124 +82,89 @@ Java(TM) Platform SE 7 U76|$
 30|application/x-java-bean;version=1.6|||$
 31|application/x-java-applet;version=1.7|||$
 32|application/x-java-bean;version=1.7|||$
-33|application/x-java-applet;jpi-version=1.7.0_76|||$
-34|application/x-java-bean;jpi-version=1.7.0_76|||$
+33|application/x-java-applet;jpi-version=1.8.0_45|||$
+34|application/x-java-bean;jpi-version=1.8.0_45|||$
 35|application/x-java-vm-npruntime|||$
-36|application/x-java-applet;deploy=10.76.2|||$
-37|application/x-java-applet;javafx=2.2.76|||$
+36|application/x-java-applet;deploy=11.45.2|||$
+37|application/x-java-applet;javafx=8.0.45|||$
 npdeployJava1.dll|$
-C:\Program Files (x86)\Java\jre7\bin\dtplugin\npdeployJava1.dll|$
-10.76.2.13|$
-1441886107805|0|0|0|$
+C:\Program Files (x86)\Java\jre1.8.0_45\bin\dtplugin\npdeployJava1.dll|$
+11.45.2.14|$
+1429684291139|0|0|0|$
 NPRuntime Script Plug-in Library for Java(TM) Deploy|$
-Java Deployment Toolkit 7.0.760.13|$
+Java Deployment Toolkit 8.0.450.14|$
 1
 0|application/java-deployment-toolkit|||$
-NPSWF32_18_0_0_232.dll|$
-C:\Windows\SysWOW64\Macromed\Flash\NPSWF32_18_0_0_232.dll|$
-18.0.0.232|$
-1441885925377|0|0|0|$
-Shockwave Flash 18.0 r0|$
-Shockwave Flash|$
-2
-0|application/x-shockwave-flash|Adobe Flash movie|swf|$
-1|application/futuresplash|FutureSplash movie|spl|$
 npctrl.dll|$
-c:\Program Files (x86)\Microsoft Silverlight\5.1.40728.0\npctrl.dll|$
-5.1.40728.0|$
-1438040874000|0|0|0|$
-5.1.40728.0|$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.40416.0\npctrl.dll|$
+5.1.40416.0|$
+1429132690000|0|0|0|$
+5.1.40416.0|$
 Silverlight Plug-In|$
 2
 0|application/x-silverlight|npctrl|scr|$
 1|application/x-silverlight-2|||$
-nppdf32.dll|$
-C:\Program Files (x86)\Adobe\Reader 11.0\Reader\browser\nppdf32.dll|$
-11.0.11.18|$
-1430503842000|0|0|0|$
-Adobe PDF Plug-In For Firefox and Netscape 11.0.11|$
-Adobe Acrobat|$
-7
-0|application/pdf|Acrobat Portable Document Format|pdf|$
-1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
-2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
-3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
-4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
-5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
-6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
-nppdf32.dll|$
-C:\Program Files (x86)\Adobe\Reader 11.0\Reader\AIR\nppdf32.dll|$
-11.0.11.18|$
-1430503842000|0|0|0|$
-Adobe PDF Plug-In For Firefox and Netscape 11.0.11|$
-Adobe Acrobat|$
-7
-0|application/pdf|Acrobat Portable Document Format|pdf|$
-1|application/vnd.adobe.pdfxml|Adobe PDF in XML Format|pdfxml|$
-2|application/vnd.adobe.x-mars|Adobe PDF in XML Format|mars|$
-3|application/vnd.fdf|Acrobat Forms Data Format|fdf|$
-4|application/vnd.adobe.xfdf|XML Version of Acrobat Forms Data Format|xfdf|$
-5|application/vnd.adobe.xdp+xml| Acrobat XML Data Package|xdp|$
-6|application/vnd.adobe.xfd+xml|Adobe FormFlow99 Data File|xfd|$
-np32dsw.dll|$
-C:\Windows\SysWOW64\Adobe\Director\np32dsw.dll|$
-12.1.8.158|$
-1429295126000|0|0|0|$
-Adobe Shockwave for Director Netscape plug-in, version 12.1.8.158|$
-Shockwave for Director|$
-1
-0|application/x-director|Shockwave Movie|dir,dxr,dcr|$
-npANWSHARE25.dll|$
-C:\Program Files (x86)\Anywhere Conference\Anywhere Appshare\npANWSHARE25.dll|$
-7.1.0.0|$
-1427383204000|0|0|0|$
-Application Sharing Plugin for Anywhere Conference|$
-Anywhere Appshare|$
-1
-0|application/com-anywhereconference-appshare-win|Application Sharing Plugin for Anywhere Conference|snp|$
-npatgpc.dll|$
-C:\Users\FP13389\AppData\Roaming\Mozilla\plugins\npatgpc.dll|$
-29.1.2014.921|$
-1424091599412|0|0|0|$
-ActiveTouch General Plugin Container Version 105|$
-ActiveTouch General Plugin Container|$
-1
-0|application/x-atgpc-plugin|General Plugin Container File|gpc|$
-npnv3dvstreaming.dll|$
-C:\Program Files (x86)\NVIDIA Corporation\3D Vision\npnv3dvstreaming.dll|$
-7.17.12.9680|$
-1336782862000|0|0|0|$
-NVIDIA 3D Vision Streaming plugin for Mozilla browsers|$
-NVIDIA 3D VISION|$
-1
-0|application/mozilla-3dv-streaming-plugin|npnv3dvstreaming|rts|$
-npnv3dv.dll|$
-C:\Program Files (x86)\NVIDIA Corporation\3D Vision\npnv3dv.dll|$
-7.17.12.9680|$
-1336782860000|0|0|0|$
-NVIDIA 3D Vision plugin for Mozilla browsers|$
-NVIDIA 3D Vision|$
-3
-0|image/jps|JPEG-based stereo image|jps|$
-1|image/pns|PNG-based stereo image|pns|$
-2|image/mpo|Multi-Picture Format image|mpo|$
-NPSPWRAP.DLL|$
-C:\PROGRA~2\MICROS~2\Office14\NPSPWRAP.DLL|$
-14.0.4761.1000|$
-1269454958000|0|0|0|$
-The plug-in allows you to open and edit files using Microsoft Office applications|$
-Microsoft Office 2010|$
-1
-0|application/x-sharepoint|SharePoint Plug-in for Firefox||$
-NPAUTHZ.DLL|$
-C:\PROGRA~2\MICROS~2\Office14\NPAUTHZ.DLL|$
-14.0.4730.1010|$
-1263066138000|0|0|0|$
-Office Authorization plug-in for NPAPI browsers|$
-Microsoft Office 2010|$
-1
-0|application/x-msoffice14|14.0.4730.1010|*|$
+NPWLPG.dll|$
+C:\Program Files (x86)\Windows Live\Photo Gallery\NPWLPG.dll|$
+16.4.3528.331|$
+1396294458000|0|0|0|$
+NPWLPG|$
+Photo Gallery|$
+2
+0|application/x-wlpg3-detect|Photo Gallery|wlpg|$
+1|application/x-wlpg-detect|Photo Gallery|wlpg|$
+npvlc.dll|$
+C:\Program Files (x86)\VideoLAN\VLC\npvlc.dll|$
+2.1.3.0|$
+1391563882000|0|0|0|$
+VLC media player Web Plugin 2.1.3|$
+VLC Web Plugin|$
+44
+0|audio/mpeg|MPEG audio|mp2,mp3,mpga,mpega|$
+1|audio/x-mpeg|MPEG audio|mp2,mp3,mpga,mpega|$
+2|video/mpeg|MPEG video|mpg,mpeg,mpe|$
+3|video/x-mpeg|MPEG video|mpg,mpeg,mpe|$
+4|video/mpeg-system|MPEG video|mpg,mpeg,mpe,vob|$
+5|video/x-mpeg-system|MPEG video|mpg,mpeg,mpe,vob|$
+6|audio/mp4|MPEG-4 audio|aac,mp4,mpg4|$
+7|audio/x-m4a|MPEG-4 audio|m4a|$
+8|video/mp4|MPEG-4 video|mp4,mpg4|$
+9|application/mpeg4-iod|MPEG-4 video|mp4,mpg4|$
+10|application/mpeg4-muxcodetable|MPEG-4 video|mp4,mpg4|$
+11|video/x-m4v|MPEG-4 video|m4v|$
+12|video/x-msvideo|AVI video|avi|$
+13|application/ogg|Ogg stream|ogg|$
+14|video/ogg|Ogg video|ogv|$
+15|application/x-ogg|Ogg stream|ogg|$
+16|application/x-vlc-plugin|VLC plug-in||$
+17|video/x-ms-asf-plugin|Windows Media Video|asf,asx|$
+18|video/x-ms-asf|Windows Media Video|asf,asx|$
+19|application/x-mplayer2|Windows Media||$
+20|video/x-ms-wmv|Windows Media|wmv|$
+21|video/x-ms-wvx|Windows Media Video|wvx|$
+22|audio/x-ms-wma|Windows Media Audio|wma|$
+23|application/x-google-vlc-plugin|Google VLC plug-in||$
+24|audio/wav|WAV audio|wav|$
+25|audio/x-wav|WAV audio|wav|$
+26|audio/3gpp|3GPP audio|3gp,3gpp|$
+27|video/3gpp|3GPP video|3gp,3gpp|$
+28|audio/3gpp2|3GPP2 audio|3g2,3gpp2|$
+29|video/3gpp2|3GPP2 video|3g2,3gpp2|$
+30|video/divx|DivX video|divx|$
+31|video/flv|FLV video|flv|$
+32|video/x-flv|FLV video|flv|$
+33|application/x-matroska|Matroska video|mkv|$
+34|video/x-matroska|Matroska video|mkv|$
+35|audio/x-matroska|Matroska audio|mka|$
+36|application/xspf+xml|Playlist xspf|xspf|$
+37|audio/x-mpegurl|MPEG audio|m3u|$
+38|video/webm|WebM video|webm|$
+39|audio/webm|WebM audio|webm|$
+40|application/vnd.rn-realmedia|Real Media File|rm|$
+41|audio/x-realaudio|Real Media Audio|ra|$
+42|audio/amr|AMR audio|amr|$
+43|audio/x-flac|FLAC audio|flac|$
 
 [INVALID]
-c:\Program Files (x86)\Microsoft Silverlight\5.1.40728.0\npctrlui.dll|$
-1438040874000|$
+c:\Program Files (x86)\Microsoft Silverlight\5.1.40416.0\npctrlui.dll|$
+1429132690000|$
