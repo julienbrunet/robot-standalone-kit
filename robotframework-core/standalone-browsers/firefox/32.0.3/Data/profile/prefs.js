@@ -9,7 +9,7 @@
  */
 
 user_pref("app.update.auto", false);
-user_pref("app.update.backgroundErrors", 1);
+user_pref("app.update.backgroundErrors", 3);
 user_pref("app.update.lastUpdateTime.browser-cleanup-thumbnails", 0);
 user_pref("browser.cache.disk.capacity", 0);
 user_pref("browser.cache.disk.smart_size.enabled", false);
@@ -22,30 +22,37 @@ user_pref("browser.newtabpage.storageVersion", 1);
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.places.importBookmarksHTML", false);
 user_pref("browser.places.smartBookmarksVersion", 7);
+user_pref("browser.preferences.advanced.selectedTabIndex", 2);
 user_pref("browser.rights.3.shown", true);
 user_pref("browser.sessionstore.upgradeBackup.latestBuildID", "20140923175406");
 user_pref("browser.shell.checkDefaultBrowser", false);
-user_pref("browser.slowStartup.averageTime", 3488);
-user_pref("browser.slowStartup.samples", 1);
+user_pref("browser.slowStartup.averageTime", 3509);
+user_pref("browser.slowStartup.samples", 3);
 user_pref("browser.startup.homepage_override.buildID", "20140923175406");
 user_pref("browser.startup.homepage_override.mstone", "32.0.3");
+user_pref("browser.uiCustomization.state", "{\"placements\":{\"PanelUI-contents\":[\"edit-controls\",\"zoom-controls\",\"new-window-button\",\"privatebrowsing-button\",\"save-page-button\",\"print-button\",\"history-panelmenu\",\"fullscreen-button\",\"find-button\",\"preferences-button\",\"add-ons-button\",\"developer-button\"],\"addon-bar\":[\"addonbar-closebutton\",\"status-bar\"],\"PersonalToolbar\":[\"personal-bookmarks\"],\"nav-bar\":[\"urlbar-container\",\"search-container\",\"webrtc-status-button\",\"bookmarks-menu-button\",\"downloads-button\",\"home-button\",\"social-share-button\",\"firebug-badged-button\"],\"TabsToolbar\":[\"tabbrowser-tabs\",\"new-tab-button\",\"alltabs-button\"],\"toolbar-menubar\":[\"menubar-items\"]},\"seen\":[],\"dirtyAreaCache\":[\"PersonalToolbar\",\"nav-bar\",\"TabsToolbar\",\"toolbar-menubar\",\"PanelUI-contents\",\"addon-bar\"],\"newElementCount\":0}");
 user_pref("browser.uitour.whitelist.add.260", "");
 user_pref("browser.uitour.whitelist.add.340", "");
 user_pref("datareporting.healthreport.nextDataSubmissionTime", "1438160795738");
 user_pref("datareporting.healthreport.service.firstRun", true);
 user_pref("datareporting.policy.firstRunTime", "1438074395737");
-user_pref("datareporting.sessions.current.activeTicks", 16);
+user_pref("datareporting.sessions.current.activeTicks", 7);
 user_pref("datareporting.sessions.current.clean", true);
-user_pref("datareporting.sessions.current.firstPaint", 3212);
-user_pref("datareporting.sessions.current.main", 442);
-user_pref("datareporting.sessions.current.sessionRestored", 3563);
-user_pref("datareporting.sessions.current.startTime", "1438074394718");
-user_pref("datareporting.sessions.current.totalTime", 82);
+user_pref("datareporting.sessions.current.firstPaint", 3371);
+user_pref("datareporting.sessions.current.main", 138);
+user_pref("datareporting.sessions.current.sessionRestored", 3689);
+user_pref("datareporting.sessions.current.startTime", "1446453641911");
+user_pref("datareporting.sessions.current.totalTime", 33);
+user_pref("datareporting.sessions.currentIndex", 2);
+user_pref("datareporting.sessions.previous.0", "{\"s\":1438074394718,\"a\":16,\"t\":82,\"c\":true,\"m\":442,\"fp\":3212,\"sr\":3563}");
+user_pref("datareporting.sessions.previous.1", "{\"s\":1446453606173,\"a\":7,\"t\":34,\"c\":true,\"m\":163,\"fp\":3409,\"sr\":3707}");
 user_pref("extensions.blocklist.pingCountVersion", 0);
-user_pref("extensions.bootstrappedAddons", "{}");
+user_pref("extensions.bootstrappedAddons", "{\"firebug@software.joehewitt.com\":{\"version\":\"2.0.13\",\"type\":\"extension\",\"descriptor\":\"C:\\\\Users\\\\brunetj\\\\repositories\\\\git\\\\robot-standalone-kit\\\\robotframework-core\\\\standalone-browsers\\\\firefox\\\\32.0.3\\\\Data\\\\profile\\\\extensions\\\\firebug@software.joehewitt.com.xpi\"}}");
 user_pref("extensions.databaseSchema", 16);
-user_pref("extensions.enabledAddons", "%7B972ce4c6-7e08-4474-a285-3208198ce6fd%7D:32.0.3");
-user_pref("extensions.installCache", "[{\"name\":\"app-global\",\"addons\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"descriptor\":\"C:\\\\BUSDATA\\\\git\\\\robot-standalone-kit\\\\robotframework-core\\\\standalone-browsers\\\\firefox\\\\32.0.3\\\\App\\\\firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"mtime\":1438074167073,\"rdfTime\":1411526204000}}},{\"name\":\"winreg-app-user\",\"addons\":{\"{9F17B1A2-7317-49ef-BCB7-7BB47BDE10F8}\":{\"descriptor\":\"C:\\\\Program Files (x86)\\\\HP\\\\Unified Functional Testing\\\\Bin\\\\Mozilla\\\\Common\",\"mtime\":1406279861044,\"rdfTime\":1383232886000}}}]");
+user_pref("extensions.enabledAddons", "FireXPath%40pierre.tholence.com:0.9.7.1.1-signed,%7B972ce4c6-7e08-4474-a285-3208198ce6fd%7D:32.0.3");
+user_pref("extensions.firebug.currentVersion", "2.0.13");
+user_pref("extensions.getAddons.databaseSchema", 5);
+user_pref("extensions.installCache", "[{\"name\":\"winreg-app-global\",\"addons\":{\"{D19CA586-DD6C-4a0a-96F8-14644F340D60}\":{\"descriptor\":\"C:\\\\Program Files (x86)\\\\Common Files\\\\McAfee\\\\SystemCore\",\"mtime\":1432121123756,\"rdfTime\":1427444792660}}},{\"name\":\"app-global\",\"addons\":{\"{972ce4c6-7e08-4474-a285-3208198ce6fd}\":{\"descriptor\":\"C:\\\\Users\\\\brunetj\\\\repositories\\\\git\\\\robot-standalone-kit\\\\robotframework-core\\\\standalone-browsers\\\\firefox\\\\32.0.3\\\\App\\\\firefox\\\\browser\\\\extensions\\\\{972ce4c6-7e08-4474-a285-3208198ce6fd}\",\"mtime\":1438344598966,\"rdfTime\":1438344598966}}},{\"name\":\"app-profile\",\"addons\":{\"firebug@software.joehewitt.com\":{\"descriptor\":\"C:\\\\Users\\\\brunetj\\\\repositories\\\\git\\\\robot-standalone-kit\\\\robotframework-core\\\\standalone-browsers\\\\firefox\\\\32.0.3\\\\Data\\\\profile\\\\extensions\\\\firebug@software.joehewitt.com.xpi\",\"mtime\":1446453553783},\"FireXPath@pierre.tholence.com\":{\"descriptor\":\"C:\\\\Users\\\\brunetj\\\\repositories\\\\git\\\\robot-standalone-kit\\\\robotframework-core\\\\standalone-browsers\\\\firefox\\\\32.0.3\\\\Data\\\\profile\\\\extensions\\\\FireXPath@pierre.tholence.com.xpi\",\"mtime\":1446453553708}}}]");
 user_pref("extensions.lastAppVersion", "32.0.3");
 user_pref("extensions.lastPlatformVersion", "32.0.3");
 user_pref("extensions.pendingOperations", false);
@@ -61,17 +68,5 @@ user_pref("places.history.expiration.transient_current_max_pages", 104858);
 user_pref("plugin.disable_full_page_plugin_for_types", "application/pdf");
 user_pref("privacy.sanitize.migrateFx3Prefs", true);
 user_pref("signon.importedFromSqlite", true);
-user_pref("toolkit.startup.last_success", 1438074395);
+user_pref("toolkit.startup.last_success", 1446453642);
 user_pref("toolkit.telemetry.previousBuildID", "20140923175406");
-
-user_pref("browser.shell.checkDefaultBrowser", false);
-
-user_pref("browser.shell.checkDefaultBrowser", false);
-
-user_pref("browser.shell.checkDefaultBrowser", false);
-
-user_pref("browser.shell.checkDefaultBrowser", false);
-
-user_pref("browser.shell.checkDefaultBrowser", false);
-
-user_pref("browser.shell.checkDefaultBrowser", false);
